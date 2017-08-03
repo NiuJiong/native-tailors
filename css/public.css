@@ -1,0 +1,33 @@
+body,html,p,h1,h2,h3,h4,h5,h6,ul,ol,li,a,span,div,i{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+html{
+	font-size: 16px;
+}
+.clearlr:after{
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+
+@media screen and (max-width: 992px) {
+	html{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 768px) {
+	html{
+		font-size: 12px;
+	}
+}

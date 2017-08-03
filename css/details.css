@@ -1,0 +1,71 @@
+.go{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+.go a{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 1.8rem;
+	color: white;
+	background: #000000;
+}
+@media screen and (max-width:992px) {
+	.go{
+		position: static;
+	}
+	.go a{
+		font-size: 1.2rem;
+	}
+}
+.main{
+	max-width: 1280px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	
+}
+
+.main h3{
+	margin-bottom: 2rem;
+	font-size:1.5rem;
+}
+.main>p{
+	font-size: 1.1rem;
+	margin-bottom:2.5rem;
+	color: #666666;
+	letter-spacing: 0.06rem;
+	text-indent: 2rem;
+}
+.main>p:nth-child(2){
+	color: #999999;
+	font-size: 0.2rem;
+	text-indent: 0;
+}
+
+.main>p:nth-child(2) i{
+	margin-right: 10px;
+}
+.main .img{
+	margin-top:4.5rem;
+}
+.main .img p{
+	margin-bottom: 1rem;
+}
+@media screen and (max-width: 1700px) {
+	.main{
+		margin-left: 200px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.main{
+		margin-top: 10px;
+		margin-bottom: 20px;
+		padding: 0 20px;
+		margin-left:0;
+	}
+	.main>p:nth-child(2) span{
+		margin-right:15px;
+	}
+}
