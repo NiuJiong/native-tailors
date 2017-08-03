@@ -373,6 +373,7 @@ h3.active{
 	float: left;
 	margin-top: 10rem;
 	transition: all 0.5s;
+	height: 280px;
 }
 .our ul li:nth-child(2){
 	transition: all 1s;
@@ -485,7 +486,7 @@ h3.active{
 .solution ul li{
 	float: left;
 	margin-top: 10rem;
-	width: 48%;
+	width: 47%;
 	transition: all 0.5s;
 }
 .solution ul li:nth-child(2){
@@ -690,6 +691,7 @@ h3.active{
 		float: left;
 		width:31.3333333%;
 		margin:10px 1%;
+		height: 250px;
 	}
 	.process ul li h4{
 		font-size: 1rem;
@@ -1131,7 +1133,7 @@ h3.active{
 	}
 	.contact .message textarea{
 		margin-left: 15px;
-		width: 87%;
+		width: 80%;
 	}
 	.contact button{
 		width: 200px;

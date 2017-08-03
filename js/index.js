@@ -48,7 +48,23 @@ $(function(){
 	
 //	滚动触发动画
 	var height = $(window).height();
-	
+//	var top1 = $(window).scrollTop();
+//		for(var i =0;i <$("h3").length;i++){
+//			if(height >$("h3:eq("+i+")").offset().top){
+//				$("h3:eq("+i+")").addClass("active");
+//			}
+//		}
+//		for(var i =0;i<$(".introduce").length;i++){
+//			if( height > $(".introduce:eq("+i+")").offset().top){
+//				$(".introduce:eq("+i+")").addClass("active");
+//			}
+//		}
+	if($(window).width()<768){
+		$("h3").addClass("active");
+		$(".introduce").addClass("active");
+		$(".bigli").addClass("active");
+	}
+
 	$(window).scroll(function(){
 //		各块头部动画
 		var top = $(window).scrollTop();
