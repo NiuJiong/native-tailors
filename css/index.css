@@ -36,14 +36,14 @@
 		font-family: "微软雅黑";
 		width:5rem;
 		text-align: center;
-		padding: 0.3rem 0;
+		padding: 0.1rem 0;
 		display: none;
 		z-index: 99999;
 	}
 	.rightnav p span{
 		display: inline-block;
 		position: absolute;
-		right: 115%;
+		right: 120%;
 		top:50%;
 		width:0;
 		height:0;
@@ -186,9 +186,9 @@ header img{
 	font-family: "微软雅黑";
 }*/
 .main .banner-img{
-	max-width: 1360PX;
+	width: 100%;
 	overflow: hidden;
-	
+	text-align: center;
 }
 .main .banner-img ul{
 	width: 500%;

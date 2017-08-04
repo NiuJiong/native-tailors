@@ -44,6 +44,7 @@ $(function(){
 		$('html,body').animate({
 			scrollTop:tHeight
 		},1000);
+		$(this).addClass("active");
 	});
 	
 	
@@ -80,14 +81,13 @@ $(function(){
 			}
 		}
 		for(var i=0;i<$(".navtext").length;i++){
-			console.log($(".navtext:eq("+0+")").offset().top)
 			if(top + height > $(".navtext:eq("+i+")").offset().top){
 				$(".rightnav p a").removeClass("active");
 				$(".rightnav p span").removeClass("active");
 				$(".rightnav p").removeClass("active");
 				$(".rightnav .menu a:eq("+i+")").addClass("active");
 				$(".rightnav .menu span:eq("+i+")").addClass("active");
-				$(".rightnav p:eq("+i+")").removeClass("active");
+				$(".rightnav p:eq("+i+")").addClass("active");
 			}
 			if(top<=100){
 				$(".rightnav p a").removeClass("active");
@@ -95,8 +95,8 @@ $(function(){
 				$(".rightnav p").removeClass("active");
 					$(".rightnav .menu a:eq(0)").addClass("active");
 				$(".rightnav .menu span:eq(0)").addClass("active");
-				$(".rightnav p:eq(0)").removeClass("active");
-			}
+				$(".rightnav p:eq(0)").addClass("active");
+			}	
 		}
 //介绍部分动画
 		for(var i =0;i<$(".introduce").length;i++){
