@@ -31,7 +31,7 @@
 		top: -30%;
 		border-radius:5px;
 		font-size:12px;
-		
+		font-family: "微软雅黑";
 		width: 6rem;
 		text-align: center;
 		padding: 0.3rem 0;
@@ -165,6 +165,7 @@ header img{
 	top: 4rem;
 	right:5rem;
 	z-index: 666;
+	font-family: "微软雅黑";
 }
 
 .main  .en{
@@ -176,6 +177,7 @@ header img{
 	top: 27rem;
 	letter-spacing: 0.08rem;
 	z-index: 666;
+	font-family: "微软雅黑";
 }
 .main .banner-img{
 	max-width: 1360PX;
@@ -283,10 +285,19 @@ h3.active{
 	border: 1px solid #BBBBBB;
 	vertical-align: middle;
 }
+.about p:nth-child(2){
+	color: #666666;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 4rem;
+	margin-top: 1rem;
+	font-family: "微软雅黑";
+}
 .about p{
 	margin-top: 2rem;
 	color: #999999;
 	letter-spacing: 0.08rem;
+	font-family: "微软雅黑";
 }
 .about ul{
 	max-width: 1400px;
@@ -342,6 +353,7 @@ h3.active{
 	font-size: 1.2rem;
 	margin-bottom: 4rem;
 	margin-top: 1rem;
+	font-family: "微软雅黑";
 }
 .our p:nth-child(2)>span:nth-child(1){
 	display: inline-block;
@@ -361,6 +373,7 @@ h3.active{
 	margin-top: 2rem;
 	color: #999999;
 	letter-spacing: 0.08rem;
+	font-family: "微软雅黑";
 }
 .our ul{
 	max-width: 1500px;
@@ -374,6 +387,7 @@ h3.active{
 	margin-top: 10rem;
 	transition: all 0.5s;
 	height: 280px;
+	font-family: "微软雅黑";
 }
 .our ul li:nth-child(2){
 	transition: all 1s;
@@ -399,6 +413,7 @@ h3.active{
 	letter-spacing: 0.1rem;
 	font-size: 12px;
 	color: #999999;
+	font-family: "微软雅黑";
 }
 .our ul li span:nth-child(1){
 	padding: 2.5rem 0; 
@@ -458,6 +473,7 @@ h3.active{
 	font-size: 1.2rem;
 	margin-bottom: 4rem;
 	margin-top: 1rem;
+	font-family: "微软雅黑";
 }
 .solution>p:nth-child(2) span:nth-child(1){
 	display: inline-block;
@@ -477,6 +493,7 @@ h3.active{
 	margin-top: 2rem;
 	color: #999999;
 	letter-spacing: 0.08rem;
+	font-family: "微软雅黑";
 }
 .solution ul{
 	max-width:1400px;
@@ -532,6 +549,7 @@ h3.active{
 	float: right;
 	text-align: left;
 	vertical-align: text-top;
+	font-family: "微软雅黑";
 }
 .solution ul li .right h4{
 	padding: 0.8rem 0;
@@ -590,6 +608,7 @@ h3.active{
 	margin-top: 2rem;
 	color: #999999;
 	letter-spacing: 0.08rem;
+	font-family: "微软雅黑";
 }
 .process>p:nth-child(2){
 	color: #666666;
@@ -622,6 +641,7 @@ h3.active{
 	width:20%;
 	margin-top:10rem;
 	transition: all 0.5s;
+	font-family: "微软雅黑";
 }
 .process ul li:nth-child(2){
 	transition: all 1s;
@@ -653,12 +673,14 @@ h3.active{
 	font-size: 1rem;
 	margin-bottom: 20px;
 	letter-spacing: 0.1rem;
+	font-family: "微软雅黑";
 }
 .process ul li p{
 	margin-top: 6px;
 	color: #999999;
 	font-size: 0.5rem;
 	letter-spacing: 0.08rem;
+	font-family: "微软雅黑";
 }
 .process ul li:nth-child(1) span{
 	background:url(../images/process.png) no-repeat center 0;
@@ -716,6 +738,7 @@ h3.active{
 	margin-top: 2rem;
 	color: #999999;
 	letter-spacing: 0.08rem;
+	font-family: "微软雅黑";
 }
 .ceses>p:nth-child(2){
 	color: #666666;
@@ -782,12 +805,14 @@ h3.active{
 	font-size: 12px;
 	color: #999999;
 	letter-spacing: 0.08rem;
+	font-family: "微软雅黑";
 }
 .ceses ul li h4{
 	margin:20px 0;
 	font-size:1.05rem;
 	color: black;
 	letter-spacing: 0.1rem;
+	font-family: "微软雅黑";
 }
 .ceses ul li p:last-child img{
 	width: 1rem;
@@ -797,6 +822,7 @@ h3.active{
 .ceses ul li p a{
 	color: #666666;
 	font-size: 14px;
+	font-family: "微软雅黑";
 }
 @media screen and (max-width: 768px){
 	.ceses{
@@ -933,6 +959,7 @@ h3.active{
 	margin-top: 2rem;
 	color: #999999;
 	letter-spacing: 0.08rem;
+	font-family: "微软雅黑";
 }
 .contact>p:nth-child(2){
 	color: #666666;
@@ -940,6 +967,7 @@ h3.active{
 	font-size: 1.2rem;
 	margin-bottom: 4rem;
 	margin-top: 1rem;
+	font-family: "微软雅黑";
 }
 .contact>p:nth-child(2)>span:nth-child(1){
 	display: inline-block;
@@ -1007,6 +1035,7 @@ h3.active{
 	padding-top: 2px;
 	color: #999999;
 	font-size: 14px;
+	font-family: "微软雅黑";
 }
 .contact ul li .information p{
 	margin-left: 20px;
@@ -1056,15 +1085,19 @@ h3.active{
 	background-color:#F5F5F5;
 	font-size: 12px;
 	outline: none;
+	font-family: "微软雅黑";
 }
 .contact .message .tabd input::-moz-placeholder{
 	color: #999999;
+	font-family: "微软雅黑";
 }
 .contact .message .tabd input::-webkit-input-placeholder{
 	color: #999999;
+	font-family: "微软雅黑";
 }
 .contact .message .tabd input::-ms-input-placeholder{
 	color: #999999;
+	font-family: "微软雅黑";
 }
 .contact .message textarea{
 	margin-left: 6%;
@@ -1076,15 +1109,19 @@ h3.active{
 	background: #F5F5F5;
 	outline: none;
 	padding: 1rem;
+	font-family: "微软雅黑";
 }
 .contact .message textarea::-moz-placeholder{
 	color: #999999;
+	font-family: "微软雅黑";
 }
 .contact .message textarea::-ms-input-placeholder{
 	color: #999999;
+	font-family: "微软雅黑";
 }
 .contact .message textarea::-webkit-input-placeholder{
 	color: #999999;
+	font-family: "微软雅黑";
 }
 .contact button{
 	width: 300px;
@@ -1099,6 +1136,7 @@ h3.active{
 	letter-spacing: 0.1rem;
 	cursor: pointer;
 	outline: none;
+	font-family: "微软雅黑";
 }
 .fot{
 	margin-left: -4000px;
@@ -1148,9 +1186,12 @@ h3.active{
 .introduce{
 	margin-left: -3000px;
 	transition: all 1s;
+	margin-top: 1.5rem;
 }
 .introduce.active{
 	margin-left: 0;
+	margin-top: 1rem;
+	font-family: "微软雅黑";	
 }
 .bigli{
 	padding-top: 300px;
