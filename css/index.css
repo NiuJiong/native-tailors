@@ -49,8 +49,8 @@
 		height:0;
 		z-index: 99999;
 		transform: translateY(-50%);
-		border-top: 0.4rem solid transparent;
-		border-bottom: 0.4rem solid transparent;
+		border-top: 0.2rem solid transparent;
+		border-bottom: 0.2rem solid transparent;
 		border-left: 0.3rem solid black;
 		border-right: 0.5rem solid transparent;
 		display: none;
@@ -129,7 +129,7 @@ header{
 header img{
 	display: block;
 	width: 200px;
-	margin:3rem auto;
+	margin:0 auto;
 }
 @media screen and (max-width: 768px){
 	header .switch a{
@@ -155,8 +155,9 @@ header img{
 .main{
 	max-width: 1550px;
 	margin: 0 auto;
-	margin-top:8rem;
+	margin-top:50px;
 	position: relative;
+	margin-bottom: 150px;
 }
 .main .banner{
 	position: relative;
@@ -1214,6 +1215,6 @@ h3.active{
 	padding-top: 0;
 }
 .navcli{
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
