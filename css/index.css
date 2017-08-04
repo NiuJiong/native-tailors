@@ -24,7 +24,7 @@
 		margin-left: 80%;
 		position: relative;
 		cursor: pointer;
-		background: #696969;
+		background: #999999;
 	}
 	.rightnav p a{
 		position: absolute;
@@ -43,7 +43,7 @@
 	.rightnav p span{
 		display: inline-block;
 		position: absolute;
-		right: 100%;
+		right: 110%;
 		top:50%;
 		width:0;
 		height:0;
@@ -51,7 +51,7 @@
 		transform: translateY(-50%);
 		border-top: 0.5rem solid transparent;
 		border-bottom: 0.5rem solid transparent;
-		border-left: 0.6rem solid black;
+		border-left: 0.4rem solid black;
 		border-right: 0.5rem solid transparent;
 		display: none;
 	}
@@ -162,7 +162,7 @@ header img{
 	position: relative;
 /*	min-height: ;*/
 }
-.main  .tex{
+/*.main  .tex{
 	position: absolute;
 	width:1.8rem;
 	color: #333333;
@@ -184,7 +184,7 @@ header img{
 	letter-spacing: 0.08rem;
 	z-index: 666;
 	font-family: "微软雅黑";
-}
+}*/
 .main .banner-img{
 	max-width: 1360PX;
 	overflow: hidden;
