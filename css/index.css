@@ -24,15 +24,17 @@
 		margin-left: 80%;
 		position: relative;
 		cursor: pointer;
+		background: #696969;
 	}
 	.rightnav p a{
 		position: absolute;
 		right:200%;
-		top: -30%;
+		top:50%;
+		transform: translateY(-50%);
 		border-radius:5px;
 		font-size:12px;
 		font-family: "微软雅黑";
-		width: 6rem;
+		width:5rem;
 		text-align: center;
 		padding: 0.3rem 0;
 		display: none;
@@ -42,15 +44,19 @@
 		display: inline-block;
 		position: absolute;
 		right: 100%;
-		top: 20%;
+		top:50%;
 		width:0;
 		height:0;
 		z-index: 99999;
-		border-top: 0.3rem solid transparent;
-		border-bottom: 0.3rem solid transparent;
+		transform: translateY(-50%);
+		border-top: 0.5rem solid transparent;
+		border-bottom: 0.5rem solid transparent;
 		border-left: 0.6rem solid black;
 		border-right: 0.5rem solid transparent;
 		display: none;
+	}
+	.rightnav p.active{
+		background: black;
 	}
 	.rightnav p a.active{
 		display: block;
@@ -149,7 +155,7 @@ header img{
 .main{
 	max-width: 1550px;
 	margin: 0 auto;
-	margin-top:4rem;
+	margin-top:8rem;
 	position: relative;
 }
 .main .banner{
@@ -386,7 +392,7 @@ h3.active{
 	float: left;
 	margin-top: 10rem;
 	transition: all 0.5s;
-	height: 280px;
+	height: 240px;
 	font-family: "微软雅黑";
 }
 .our ul li:nth-child(2){
@@ -1187,6 +1193,7 @@ h3.active{
 	margin-left: -3000px;
 	transition: all 1s;
 	margin-top: 1.5rem;
+	font-size: 0.9rem;
 }
 .introduce.active{
 	margin-left: 0;
@@ -1206,5 +1213,7 @@ h3.active{
 .bigli.active{
 	padding-top: 0;
 }
-
+.navcli{
+	margin-top: 100px;
+}
 

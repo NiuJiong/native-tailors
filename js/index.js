@@ -30,8 +30,10 @@ $(function(){
 	$(".rightnav p").mouseover(function(){
 		$(".rightnav p a").removeClass("active");
 		$(".rightnav p span").removeClass("active");
+		$(".rightnav p").removeClass("active");
 		$(this).find("a").addClass("active");
 		$(this).find("span").addClass("active");
+		$(this).addClass("active");
 	});
 	
 	
@@ -48,6 +50,7 @@ $(function(){
 	
 //	滚动触发动画
 	var height = $(window).height();
+	console.log(height);
 //	var top1 = $(window).scrollTop();
 //		for(var i =0;i <$("h3").length;i++){
 //			if(height >$("h3:eq("+i+")").offset().top){
@@ -64,17 +67,37 @@ $(function(){
 		$(".introduce").addClass("active");
 		$(".bigli").addClass("active");
 	}
-
+	$(".about h3").addClass("active");
 	$(window).scroll(function(){
 //		各块头部动画
 		var top = $(window).scrollTop();
 		for(var i =0;i <$("h3").length;i++){
 			if(top + height >$("h3:eq("+i+")").offset().top){
 				$("h3:eq("+i+")").addClass("active");
+				
 			}else{
 				$("h3:eq("+i+")").removeClass("active");
 			}
-		}	
+		}
+		for(var i=0;i<$(".navtext").length;i++){
+			console.log($(".navtext:eq("+0+")").offset().top)
+			if(top + height > $(".navtext:eq("+i+")").offset().top){
+				$(".rightnav p a").removeClass("active");
+				$(".rightnav p span").removeClass("active");
+				$(".rightnav p").removeClass("active");
+				$(".rightnav .menu a:eq("+i+")").addClass("active");
+				$(".rightnav .menu span:eq("+i+")").addClass("active");
+				$(".rightnav p:eq("+i+")").removeClass("active");
+			}
+			if(top<=100){
+				$(".rightnav p a").removeClass("active");
+				$(".rightnav p span").removeClass("active");
+				$(".rightnav p").removeClass("active");
+					$(".rightnav .menu a:eq(0)").addClass("active");
+				$(".rightnav .menu span:eq(0)").addClass("active");
+				$(".rightnav p:eq(0)").removeClass("active");
+			}
+		}
 //介绍部分动画
 		for(var i =0;i<$(".introduce").length;i++){
 			if(top + height > $(".introduce:eq("+i+")").offset().top){
