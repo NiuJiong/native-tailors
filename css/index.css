@@ -43,15 +43,15 @@
 	.rightnav p span{
 		display: inline-block;
 		position: absolute;
-		right: 110%;
+		right: 115%;
 		top:50%;
 		width:0;
 		height:0;
 		z-index: 99999;
 		transform: translateY(-50%);
-		border-top: 0.5rem solid transparent;
-		border-bottom: 0.5rem solid transparent;
-		border-left: 0.4rem solid black;
+		border-top: 0.4rem solid transparent;
+		border-bottom: 0.4rem solid transparent;
+		border-left: 0.3rem solid black;
 		border-right: 0.5rem solid transparent;
 		display: none;
 	}
