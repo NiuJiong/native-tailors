@@ -55,6 +55,9 @@
 		border-right: 0.5rem solid transparent;
 		display: none;
 	}
+	-webkit-{
+		
+	}
 	.rightnav p.active{
 		background: black;
 	}
