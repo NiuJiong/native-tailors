@@ -790,7 +790,7 @@ h3.active{
 	transition: all 3s;
 }
 .ceses ul li.active{
-	margin-top:0;
+	margin-top:2rem;
 }
 .ceses ul li span{
 	display:block;
@@ -1102,7 +1102,7 @@ h3.active{
 .contact .message textarea{
 	margin-left: 6%;
 	vertical-align:top;
-	height:87px;
+	height:103px;
 	width: 60%;
 	resize: none;
 	border: none;
